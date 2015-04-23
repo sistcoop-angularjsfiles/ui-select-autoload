@@ -1,0 +1,18 @@
+{
+    "name": "select.utils",
+    "version": "0.0.7",
+    "main": "./dist/select.utils.js",
+    "description": "Utils for ui-select",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sistcoop-angularjsfiles/ui-select-utils.git"
+    },
+    "dependencies": {
+        "angular-ui-select": "0.11.2"
+    },
+    "ignore": [
+        "node_modules",
+        "components",
+        "lib"
+    ]
+}
