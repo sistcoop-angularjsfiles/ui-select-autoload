@@ -39,7 +39,7 @@
                     if(object.length){
                         for(var i = 0; i<object.length; i++){
                             var attribute1 = angular.isDefined(ignoreCase) ? object[i][attributeName.toString()].toLowerCase() : object[i][attributeName.toString()];
-                            var attribute2 = angular.isDefined(ignoreCase) ? toCompare.toLowerCase() : toCompare;
+                            var attribute2 = angular.isDefined(ignoreCase) && toCompare ? toCompare.toLowerCase() : toCompare;
                             if(attribute1 == attribute2)
                                 return object[i];
                         }
